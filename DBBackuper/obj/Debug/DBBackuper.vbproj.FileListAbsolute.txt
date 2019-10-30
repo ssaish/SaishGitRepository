@@ -1,0 +1,47 @@
+D:\Projects\DBBackuper\DBBackuper\bin\Debug\DBBackuper.exe
+D:\Projects\DBBackuper\DBBackuper\bin\Debug\DBBackuper.pdb
+D:\Projects\DBBackuper\DBBackuper\bin\Debug\DBBackuper.xml
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\DBBackuper.Form1.resources
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\DBBackuper.Resources.resources
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\DBBackuper.exe
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\DBBackuper.xml
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\DBBackuper.pdb
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Projects\DBBackuper\DBBackuper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\DBBackuper.exe
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\DBBackuper.xml
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\DBBackuper.pdb
+D:\Projects\DBBackuper - NEW\DBBackuper\bin\Debug\DBBackuper.exe
+D:\Projects\DBBackuper - NEW\DBBackuper\bin\Debug\DBBackuper.pdb
+D:\Projects\DBBackuper - NEW\DBBackuper\bin\Debug\DBBackuper.xml
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\DBBackuper.Form1.resources
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\DBBackuper.Resources.resources
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\ResGen.read.1.tlog
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Projects\DBBackuper - NEW\DBBackuper\obj\Debug\ResGen.write.1.tlog
+D:\p\Util\DBBackuper\obj\Debug\DBBackuper.exe
+D:\p\Util\DBBackuper\obj\Debug\DBBackuper.xml
+D:\p\Util\DBBackuper\obj\Debug\DBBackuper.pdb
+D:\p\Util\DBBackuper\bin\Debug\DBBackuper.exe
+D:\p\Util\DBBackuper\bin\Debug\DBBackuper.pdb
+D:\p\Util\DBBackuper\bin\Debug\DBBackuper.xml
+D:\p\Util\DBBackuper\obj\Debug\DBBackuper.Form1.resources
+D:\p\Util\DBBackuper\obj\Debug\DBBackuper.Resources.resources
+D:\p\Util\DBBackuper\obj\Debug\DBBackuper.vbproj.GenerateResource.Cache
+D:\Projects\Util\DBBackuper\bin\Debug\WinSCP.exe
+D:\Projects\Util\DBBackuper\bin\Debug\DBBackuper.exe.config
+D:\Projects\Util\DBBackuper\bin\Debug\DBBackuper.exe
+D:\Projects\Util\DBBackuper\bin\Debug\DBBackuper.pdb
+D:\Projects\Util\DBBackuper\bin\Debug\DBBackuper.xml
+D:\Projects\Util\DBBackuper\bin\Debug\WinSCPnet.dll
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.Form1.resources
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.Resources.resources
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.vbproj.GenerateResource.cache
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.vbproj.CoreCompileInputs.cache
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.vbproj.CopyComplete
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.exe
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.xml
+D:\Projects\Util\DBBackuper\obj\Debug\DBBackuper.pdb

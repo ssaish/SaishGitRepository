@@ -1,0 +1,15 @@
+D:\Projects\Util\DBBackuper\bin\Release\WinSCP.exe
+D:\Projects\Util\DBBackuper\bin\Release\DBBackuper.exe.config
+D:\Projects\Util\DBBackuper\bin\Release\DBBackuper.exe
+D:\Projects\Util\DBBackuper\bin\Release\DBBackuper.pdb
+D:\Projects\Util\DBBackuper\bin\Release\DBBackuper.xml
+D:\Projects\Util\DBBackuper\bin\Release\WinSCPnet.dll
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.Form1.resources
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.Resources.resources
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.vbproj.GenerateResource.cache
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.vbproj.CoreCompileInputs.cache
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.vbproj.CopyComplete
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.exe
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.xml
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.pdb
+D:\Projects\Util\DBBackuper\obj\Release\DBBackuper.vbprojAssemblyReference.cache
