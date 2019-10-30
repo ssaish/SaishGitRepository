@@ -1,0 +1,326 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CommsTester
+</name>
+</assembly>
+<members>
+<member name="M:CommsTester.xCore.xPort.Open(CommsTester.xCore.xParameterList,System.Boolean)">
+	<summary>
+ Opens a new connection.
+ </summary>
+	<param name="ConnectionParameters">Connect using this parameter list</param>
+	<param name="autoReconnect">if set to <c>true</c> the connection will automaticaly reconnect if disconnected.</param>
+</member><member name="M:CommsTester.xCore.xPort.CloseReconnect(CommsTester.xCore.xPort.State,System.String)">
+	<summary>
+ This closes the current connection and reopens it if required.
+ </summary>
+	<param name="state">This is the port state on the closed connection.</param>
+	<param name="message">This is a message explaning why the port was closed.</param>
+</member><member name="M:CommsTester.xCore.xPort.AttachReadDelegate(CommsTester.xCore.xPort.read)">
+	<summary>
+ attached a function pointer for the read event.
+ </summary>
+	<param name="readDelegate">The function to call on the read event.</param>
+</member><member name="M:CommsTester.xCore.xPort.AutoReconnectTimer(System.Object)">
+	<summary>
+ Auto the reconnect timer.
+ </summary>
+	<param name="state">The state of the timer.</param>
+</member><member name="M:CommsTester.xCore.xPort.AddWrite(System.Byte[])">
+	<summary>
+ This adds a byte() to the write queue as a GCHandle.
+ </summary>
+	<param name="data">The byte() to be added.</param>
+</member><member name="M:CommsTester.xCore.xPort.IsWriteQueueEmpty">
+	<summary>
+ Determines whether the write queue is empty.
+ </summary>
+	<returns>
+		<c>true</c> if the write queue is empty; otherwise, <c>false</c>.
+ </returns>
+</member><member name="M:CommsTester.xCore.xPort.GetNextWrite">
+	<summary>
+ Gets the byte() from the write queue.
+ </summary>
+	<returns>GCHandle to the next byte()</returns>
+</member><member name="M:CommsTester.xCore.xPort.AddParameterDecoder(System.String,CommsTester.xCore.xPort.ParameterDecoder)">
+	<summary>
+ This will add a function poiner to decode required parameters.
+ </summary>
+	<param name="name">The name of the parameter to decode.</param>
+	<param name="paramDecoder">The function to call to decode the parameter.</param>
+</member><member name="M:CommsTester.xCore.xPort.AttachStatusDelegate(CommsTester.xCore.xPort.Status)">
+	<summary>
+ attached a function pointer for the status event.
+ </summary>
+	<param name="statusDelegate">The function to call on the status event.</param>
+</member><member name="M:CommsTester.xCore.xPort.UpdateStatus(CommsTester.xCore.xPort.State,System.String)">
+	<summary>
+ Updates the status of the parent object.
+ </summary>
+	<param name="connectionState">State of the connection.</param>
+	<param name="connectionMessage">The connection message.</param>
+</member><member name="M:CommsTester.xCore.xParameterList.#ctor(System.String,System.Char)">
+	<summary>
+ Initializes a new instance of the <see cref="T:CommsTester.xCore.xParameterList"/> class.
+ </summary>
+	<param name="data">Holds a string repesentation of the parameters.  This strring is then broken up based on the delemiters and stored as strings in the parameter array.   eg 'P1=val1,P2=Val2'</param>
+	<param name="delimiter">This states the delimiter used to separate the parameters.  Typically is a comma.</param>
+</member><member name="M:CommsTester.xCore.xParameterList.Update(System.String)">
+	<summary>
+ Updates the parameters specified.
+ </summary>
+	<param name="data">Parameters are in the same format as the constructor.  eg 'P1=val1,P2=Val2'</param>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xCore.xParameterList.Contains(System.String)">
+	<summary>
+ Determines whether the parameter array contains the given key.
+ </summary>
+	<param name="parameterKey">The key to find.</param>
+	<returns>
+		<c>true</c> if the parameterKey is found; otherwise, <c>false</c>.
+ </returns>
+</member><member name="M:CommsTester.xCore.xParameterList.Contains(System.String[])">
+	<summary>
+ Determines whether the parameter array contains the given keys.
+ </summary>
+	<param name="parameterKey">The key to find.</param>
+	<returns>
+		<c>true</c> if the parameterKey is found; otherwise, <c>false</c>.
+ </returns>
+</member><member name="M:CommsTester.xCore.xParameterList.GetValue(System.String)">
+	<summary>
+ Gets the specified paramater based on the parameterKey given.
+ </summary>
+	<param name="paramaterKey">Name of the paramater to return.</param>
+	<returns>Prameter information for the given key</returns>
+</member><member name="T:CommsTester.xCore.xParameterList">
+	<summary>
+ This holds a collectiom of parameters of selected types
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.#ctor(CommsTester.xILogItem)">
+	<summary>
+ Initializes a new instance of the <see cref="T:CommsTester.xCore.xPortTCPServer"/> class.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.Open">
+	<summary>
+ Opens a new Client TCP connection based on a previously provided set of parameters.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.CloseWorker">
+	<summary>
+ This closed the Client TCP connection.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.Write(System.Byte[])">
+	<summary>
+ Not implemented for TCp Servers
+ </summary>
+	<param name="data">The data to write.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.AttachNewClientDelegate(CommsTester.xCore.xPortTCPServer.Client)">
+	<summary>
+ attached a function pointer for the new client event.
+ </summary>
+	<param name="clientDelegate">The function to call on the new client event.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.AcceptCallBack(System.IAsyncResult)">
+	<summary>
+ This is the callback to the client accept operation.
+ </summary>
+	<param name="selectedListener">This is the network stream that started the listen operation.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.ParameterIP(System.String)">
+	<summary>
+ This is called to decode the ip address.
+ </summary>
+	<param name="parameterData">The data string containing the ip address information.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPServer.ParameterPort(System.String)">
+	<summary>
+ This is called to decode the port address.
+ </summary>
+	<param name="parameterData">The data sting containing the port address information.</param>
+</member><member name="M:CommsTester.xCore.xSafeList`1.Add(`0)">
+	<summary>
+ Safely adds the Item
+ </summary>
+	<param name="Item"></param>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xCore.xSafeList`1.Remove(`0)">
+	<summary>
+ Safely removes the Item
+ </summary>
+	<param name="Item"></param>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xCore.xSafeList`1.Clear">
+	<summary>
+ Clears the list and returns the list before it was cleared
+ </summary>
+	<returns>The list before it was cleared</returns>
+	<remarks></remarks>
+</member><member name="P:CommsTester.xCore.xSafeList`1.List">
+	<summary>
+ Returns the current list.  Note: do not store this reference because every Add, Remove, and Clear will give a new reference.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xCore.xSafeDictionary`2.Add(`0,`1)">
+	<summary>
+ Safely adds the Item
+ </summary>
+	<param name="Key"></param>
+	<param name="Value"></param>
+	<returns>existing value in dictionary or the added value if was not already in dictionary</returns>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xCore.xSafeDictionary`2.Remove(`0,`1)">
+	<summary>
+ Safely removes the Item
+ </summary>
+	<param name="Key"></param>
+	<param name="Value"></param>
+	<returns>true if removed and was in dictionary</returns>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xCore.xSafeDictionary`2.Clear">
+	<summary>
+ Clears the list and returns the list before it was cleared
+ </summary>
+	<returns>The list before it was cleared</returns>
+	<remarks></remarks>
+</member><member name="P:CommsTester.xCore.xSafeDictionary`2.Dictionary">
+	<summary>
+ Returns the current list.  Note: do not store this reference because every Add, Remove, and Clear will give a new reference.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.#ctor(CommsTester.xILogItem)">
+	<summary>
+ Initializes a new instance of the <see cref="T:CommsTester.xCore.xPortTCPClient"/> class.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.#ctor(System.Net.Sockets.TcpClient,CommsTester.xILogItem)">
+	<summary>
+ Initializes a new instance of the <see cref="T:CommsTester.xCore.xPortTCPClient"/> class.
+ </summary>
+	<param name="client">Is a TCPClient connection typicaly created from TCPServer.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.Open">
+	<summary>
+ Opens a new Client TCP connection based on a previously provided set of parameters.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.ConnectCallBack(System.IAsyncResult)">
+	<summary>
+ This handles the connection callback for a successfull / failed Client TCP connection.
+ </summary>
+	<param name="selectedSocket">The selectedSocket is the socket that initiated the connection attempt.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.CloseWorker">
+	<summary>
+ This closed the Client TCP connection.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.ReadCallBack(System.IAsyncResult)">
+	<summary>
+ Asynchronous read events on the current Client TCP connection.
+ </summary>
+	<param name="selectedStream">The network stream that initiated the read callback.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.Write(System.Byte[])">
+	<summary>
+ Asynchronous write of TCP Data. If a write is currently in progress then 
+ the data is stored and writen when then current write is completed.
+ </summary>
+	<param name="data">The data to write.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.ParameterIP(System.String)">
+	<summary>
+ This is called to decode the ip address.
+ </summary>
+	<param name="parameterData">The data string containing the ip address information.</param>
+</member><member name="M:CommsTester.xCore.xPortTCPClient.ParameterPort(System.String)">
+	<summary>
+ This is called to decode the port address.
+ </summary>
+	<param name="parameterData">The data sting containing the port address information.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.#ctor(CommsTester.xILogItem)">
+	<summary>
+ Initializes a new instance of the <see cref="T:CommsTester.xCore.xPortRS232"/> class and
+ setups the parameter decoding
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortRS232.Open">
+	<summary>
+ Opens the RS232 connection.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortRS232.CloseWorker">
+	<summary>
+ Closes the RS232 connection.
+ </summary>
+</member><member name="M:CommsTester.xCore.xPortRS232.ReadCallBack(System.IAsyncResult)">
+	<summary>
+ Asynchronous read events on the current RS232 connection.
+ </summary>
+	<param name="selectedStream">The network stream that initiated the read callback.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.Write(System.Byte[])">
+	<summary>
+ Asynchronous write of RS232 Data. If a write is currently in progress then 
+ the data is stored and writen when then current write is completed.
+ </summary>
+	<param name="data">The data to write.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.WriteCallBack(System.IAsyncResult)">
+	<summary>
+ This is the callback to the write operation.
+ </summary>
+	<param name="selectedStream">This is the RS232 stream that started the write operation.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.ParameterPort(System.String)">
+	<summary>
+ This is called to decode the com port number.
+ </summary>
+	<param name="parameterData">The data string containing the com port number information.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.ParameterBaudRate(System.String)">
+	<summary>
+ This is called to decode the baud rate.
+ </summary>
+	<param name="parameterData">The data sting containing the baud rate information.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.ParameterParity(System.String)">
+	<summary>
+ This is called to decode the parity.
+ </summary>
+	<param name="parameterData">The data sting containing the parity information.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.ParameterDataBits(System.String)">
+	<summary>
+ This is called to decode the number of data bits.
+ </summary>
+	<param name="parameterData">The data sting containing the data bits information.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.ParameterStopBits(System.String)">
+	<summary>
+ This is called to decode the number of stop bits.
+ </summary>
+	<param name="parameterData">The data sting containing the stop bits information.</param>
+</member><member name="M:CommsTester.xCore.xPortRS232.ParameterFlowControl(System.String)">
+	<summary>
+ This is called to decode the flow contol.
+ </summary>
+	<param name="parameterData">The data sting containing the flow control information.</param>
+</member><member name="M:CommsTester.xUISettingsGroup.Get(System.String,System.String)">
+	<summary>
+ Gets of Creates a setting with a default value
+ </summary>
+	<param name="SettingName"></param>
+	<param name="DefaultValue">The Value of the setting is set to the default value when the setting did not exist in the setting file.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CommsTester.xUISettingsGroup.Get(System.String)">
+	<summary>
+ Gets and existing setting.  Tyically used to get the setting in order to set the Value property of the setting.
+ </summary>
+	<param name="SettingName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CommsTester.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CommsTester.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CommsTester.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

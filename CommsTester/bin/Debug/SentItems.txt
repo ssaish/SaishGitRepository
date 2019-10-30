@@ -1,0 +1,46 @@
+||>0:102
+^M^J
+||^M^J
+||>trigger on1^M^J
+||>trigger on
+VAR_LIST
+STATE
+STATUS
+START
+STOP
+NONCRITICAL
+PEEKMSG<FS>MARS1
+PEEKMSG<FS>TEST\MARS1
+PEEKMSG<FS>MARS2
+PEEKMSG<FS>TEST\MARS2
+GOOD
+VAR_SET<FS>BBD<FS>120614
+VAR_SET<FS>BBD<FS>110614
+VAR_SET<FS>BBD<FS>100614
+PEEKMSG
+||>GET^M^J
+||>trigger on^M^J
+VAR_SET<FS>BBD<FS>150614
+VAR_SET<FS>BBD<FS>
+SELMSG<FS>BLANK
+CNT_GET
+CNT_GET<FS>MYCOUNTER
+SELMSG<FS>MARS1
+SELMSG<FS>MARS3
+SELMSG<FS>MARS2
+sudo apt-get update
+59:{"par": applicator_type", "sig": "MARKER_APPLICATOR_TYPE"},
+58:{"par": applicator_type", "sig": "MARKER_APPLICATOR_TYPE"},
+44:{"par": "online", "sig": "MARKER_STATE_SET"},
+45:{"par": "offline", "sig": "MARKER_STATE_SET"},
+59:{"par": "applicator_type", "sig": "MARKER_APPLICATOR_TYPE"},
+63:{"par": "applicator_status", "sig": "MARKER_APPLICATOR_STATUS"},
+Subscribe|!ProductCount
+PacketAck|1
+ClearError
+Subscribe|ProductCount
+PacketAck
+Subscribe|RunInfo
+Subscribe|LPA1
+Subscribe|AutoLabel
+Subscribe|LineStatus

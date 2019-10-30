@@ -1,0 +1,70 @@
+||>0:102
+^M^J
+||^M^J
+||>trigger on1^M^J
+||>trigger on
+VAR_LIST
+STATE
+STATUS
+START
+STOP
+NONCRITICAL
+PEEKMSG<FS>MARS1
+PEEKMSG<FS>TEST\MARS1
+PEEKMSG<FS>MARS2
+PEEKMSG<FS>TEST\MARS2
+GOOD
+VAR_SET<FS>BBD<FS>120614
+VAR_SET<FS>BBD<FS>110614
+VAR_SET<FS>BBD<FS>100614
+PEEKMSG
+||>GET^M^J
+||>trigger on^M^J
+VAR_SET<FS>BBD<FS>150614
+VAR_SET<FS>BBD<FS>
+SELMSG<FS>BLANK
+CNT_GET
+CNT_GET<FS>MYCOUNTER
+SELMSG<FS>MARS1
+SELMSG<FS>MARS3
+SELMSG<FS>MARS2
+sudo apt-get update
+59:{"par": applicator_type", "sig": "MARKER_APPLICATOR_TYPE"},
+58:{"par": applicator_type", "sig": "MARKER_APPLICATOR_TYPE"},
+59:{"par": "applicator_type", "sig": "MARKER_APPLICATOR_TYPE"},
+63:{"par": "applicator_status", "sig": "MARKER_APPLICATOR_STATUS"},
+35:{"sig": "MARKER_RENDERER_DATA_SET"},
+49:{"par":"None", "sig": "MARKER_RENDERER_DATA_SET"},
+31:{"par":"0", "sig": "RT_RENDER"},
+63:{"sig": "JSON_FORWARDED_ADD", "par": ["HARDWARE_SCANNER_DATA"]},
+45:{"par": 0, "sig": "FPGA_RD_PRINT_TRIG_FIRED"},
+45:{"par": 1, "sig": "FPGA_RD_PRINT_TRIG_FIRED"},
+45:{"par": "offline", "sig": "MARKER_STATE_SET"},
+265:{"par": {"cmd": "render", "args": {"dynamic_data": {"batch_nr": "445452"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+255:{"par": {"cmd": "render", "args": {"dynamic_data": {"w1": "42"}, "layout": {"data": 7, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+265:{"par": {"cmd": "render", "args": {"dynamic_data": {}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {"batch_nr": "445452"}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+265:{"par": {"cmd": "render", "args": {"dynamic_data": {"extra": "445452"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+258:{"par": {"cmd": "render", "args": {"dynamic_data": {"bbd": "445452"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+258:{"par": {"cmd": "render", "args": {"dynamic_data": {"bbd": "445462"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+258:{"par": {"cmd": "render", "args": {"dynamic_data": {"bbd": "445461"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+258:{"par": {"cmd": "render", "args": {"dynamic_data": {"bbd": "saishs"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+331:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393123456700000018", "QTY": "60", "ItemNo": "19310653102142", "bbd": "12/12/12"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+369:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393123456700000018", "QTY": "60", "ItemNo": "19310653102142", "bbd": "12/12/12", "Batch": "123456", "Weight": "500kg"}, "layout": {"data": 9, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+369:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393123456700000018", "QTY": "60", "ItemNo": "19310653102142", "bbd": "12/12/12", "Batch": "123456", "Weight": "500kg"}, "layout": {"data": 10, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+370:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393123456700000018", "QTY": "60", "ItemNo": "19310653102142", "bbd": "12/12/12", "Batch": "123456", "Weight": "500kg"}, "layout": {"data": 10, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+426:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393123456700000018", "QTY": "60", "ItemNo": "19310653102142", "bbd": "12/12/12", "Batch": "123456", "Weight": "500kg", "gs1_128_code": "011931065310214215121212376010123456"}, "layout": {"data": 10, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+434:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393123456700000018", "QTY": "60", "ItemNo": "19310653102142", "bbd": "12/12/12", "Batch": "123456", "Weight": "500kg", "gs1_128_code": "(01)19310653102142(15)121212(37)60(10)123456"}, "layout": {"data": 10, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+434:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393123456700000018", "QTY": "60", "ItemNo": "19310653102142", "bbd": "12/12/12", "Batch": "123457", "Weight": "500kg", "gs1_128_code": "(01)19310653102142(15)121212(37)60(10)123456"}, "layout": {"data": 10, "format":"layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling":"ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+29:{"sig": "MARKER_ALARM_RESET"},
+44:{"par": "online", "sig": "MARKER_STATE_SET"},
+63:{"par": {"cmd": "print_and_apply"}, "sig": "MARKER_COMMAND_DO"},
+49:{"par": 0, "sig": "MARKER_APPLICATOR_STATUS_GET"},
+33:{"par": 0, "sig": "MARKER_STATE"},
+23:{"sig": "MARKER_STATE"},
+39:{"par": 0, "sig": "MARKER_ALARM_RESET"},
+53:{"par": {"cmd": "print"}, "sig": "MARKER_COMMAND_DO"},
+514:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393006451200000401", "ProductCode": "01638", "Description": "NAPOLETANA       LEG    8X575G", "QTY": "72 CT", "ItemNo": "19300462016389", "UseBy": "01/01/14", "Batch": "310114", "Weight": "72kgs", "gs1_128_code": "(02)19300462016389(17)140101(37)72(10)310114"}, "layout": {"data": 10, "format": "layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling": "ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+514:{"par": {"cmd": "render", "args": {"dynamic_data": {"SSCC": "393006451200000401", "ProductCode": "01639", "Description": "NAPOLETANA       LEG    8X575G", "QTY": "72 CT", "ItemNo": "19300462016389", "UseBy": "01/01/14", "Batch": "310114", "Weight": "72kgs", "gs1_128_code": "(02)19300462016389(17)140101(37)72(10)310114"}, "layout": {"data": 10, "format": "layout_id"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling": "ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
+134:{"par": {["MARKER_APPLICATOR_STATUS", "MARKER_ALARM", "MARKER_SETTING_CHANGED", "MARKER_LABEL_PRINTED"]}, "sig": "JSON_FORWARDED_ADD"},
+108:{"par": ["MARKER_APPLICATOR_STATUS", "MARKER_ALARM", "MARKER_SETTING_CHANGED"], "sig": "JSON_FORWARDED_ADD"},
+4483:{"par": {"cmd": "render", "args": {"dynamic_data": {}, "layout": {"data": {"fields": [{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 21, "text": "KIMBERLY-CLARK AUST PTY LTD"}], "y": 134, "x": 40, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 14, "text": "21035 NAPPY HUG ESSTLS SIZE4 T 46X4"}], "y": 200, "x": 32, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 9, "text": "SSCC"}], "y": 253, "x": 32, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 24, "text": "39340290605680"}], "y": 324, "x": 32, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 58, "text": "205"}], "y": 352, "x": 677, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 24, "text": "6"}], "y": 322, "x": 1027, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 9, "text": "ITEM NUMBER"}], "y": 386, "x": 32, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 24, "text": "19310088012412"}], "y": 457, "x": 32, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 9, "text": "BATCH"}], "y": 504, "x": 32, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 24, "text": "00"}], "y": 575, "x": 32, "rotation": 0, "type": "text", "alignment": 1},{"line_width": 0, "height": 14, "width": 1210, "y": 587, "x": 18, "rotation": 0, "type": "rect", "alignment": 7},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 9, "text": "QUANTITY"}], "y": 388, "x": 687, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 24, "text": "0024"}], "y": 459, "x": 687, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 9, "text": "MATERIAL NUMBER"}], "y": 506, "x": 687, "rotation": 0, "type": "text", "alignment": 1},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 24, "text": "10023408"}], "y": 577, "x": 687, "rotation": 0, "type": "text", "alignment": 1},{"line_width": 5, "height": 88, "width": 1195, "y": 67, "x": 20, "rotation": 0, "type": "rect", "alignment": 7},{"barcode_message": "(240)10023408(10)00", "height": 350, "alignment": 7, "y": 625, "x": 82, "rotation": 0, "barcode_human_readable": false, "type": "barcode", "barcode_module_width": 6, "barcode_type": "GS1-128"},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 18, "text": "(240)10023408(10)00"}], "y": 1035, "x": 338, "rotation": 0, "type": "text", "alignment": 1},{"barcode_message": "(02)19310088012412(37)0024", "height": 320, "alignment": 7, "y": 1053, "x": 95, "rotation": 0, "barcode_human_readable": false, "type": "barcode", "barcode_module_width": 6, "barcode_type": "GS1-128"},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 18, "text": "(02)19310088012412(37)0024"}], "y": 1428, "x": 186, "rotation": 0, "type": "text", "alignment": 1},{"barcode_message": "(00)393402906056802056", "height": 378, "alignment": 7, "y": 1453, "x": 133, "rotation": 0, "barcode_human_readable": false, "type": "barcode", "barcode_module_width": 6, "barcode_type": "GS1-128"},{"line_spacing": 100, "horizontal_scaling": 100, "spans": [{"fontref": "Arial", "fontsize": 18, "text": "(00)393402906056802056"}], "y": 1886, "x": 218, "rotation": 0, "type": "text", "alignment": 1}],"fontdef": {"Arial": "/usr/share/fonts/truetype/freefont/FreeSans.ttf"},"height": 1949 ,"width": 1228, "autolabel_layout_version": 1}, "format": "json"}, "printable": true, "static_data": {}, "rendering": "hide_errors", "error_handling": "ignore", "previewable": true}}, "sig": "MARKER_COMMAND_DO"},
